@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerece</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>My Online Store</h1>
+
+    <div class="controls">
+
+    <input type="text" id="searchInput" placeholder="Search products...">
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Books">Books</option>
+        <option value="Shoes">Shoes</option>
+    </select>
+
+    <select id="sortOption">
+        <option value="">Sort By</option>
+        <option value="price-asc">Price Low → High</option>
+        <option value="price-desc">Price High → Low</option>
+        <option value="name-asc">Name A → Z</option>
+        <option value="name-desc">Name Z → A</option>
+        <option value="rating-asc">Rating Low → High</option>
+        <option value="rating-desc">Rating High → Low</option>
+    </select>
+    </div>
+    <div id="productContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
